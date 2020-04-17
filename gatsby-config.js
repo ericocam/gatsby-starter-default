@@ -1,8 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `International Shopper`,
+    description: `Here to teach you everything you need to know about shopping online. This site is for answering questions on on basic to advanced topics, enjoy learning.`,
+    author: `intshopper`,
+    siteUrl: `https://internationalshopper.co.uk`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -30,5 +31,6 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
+    "gatsby-plugin-htaccess",
   ],
 }
